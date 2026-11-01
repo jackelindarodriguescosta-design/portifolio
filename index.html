@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jackelinda | Portifolio</title>
+	<link href="https://fonts.google.com/specimen/Redaction+10" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<strong>Jackelinda</strong>
+		<nav>
+			<a href="#inicio">Início</a>
+			<a href="#sobre">Sobre</a>
+			<a href="#formacao">Formação</a>
+			<a href="#experiencia">Experiência</a>
+			<a href="#projetos">Projetos</a>
+			<a href="#contato">Contato</a>
+		</nav>
+		<button id="tema">Alternar Tema</button>
+	</header>
+
+	<main>
+		<section>
+			<img src="img/foto.jpg" alt="Foto da Jackelinda sorrindo para a câmera" class="foto">
+			<h1><span id="saudacao">Oi</span>, eu sou a Jackelinda!</span></h1>
+			<h1><span class="destaque">Pesquisadora, Professora e Cientista</span></h1>
+			<p>	Apaixonada pela ciência e educação, sempre em busca de novos conhecimentos e experiências que me permitam contribuir para o desenvolvimento científico e tecnológico.</p>
+			<a href="#contato" class="botao">Entre em contato</a>
+		</section>
+		<section id="inicio" class="inicio">
+			<h2>Início</h2>
+			<p><span class="destaque">Bem-vindo ao meu portfólio!</span> Aqui você encontrará informações sobre minha trajetória acadêmica, projetos de pesquisa e experiências profissionais.</p>
+			<p>Sou licenciada em Educação do Campo, com habilitação em Ciências da Natureza e Matemática pela Universidade Federal do Maranhão (UFMA).</p>
+			<p>Minha trajetória é marcada pelo compromisso com as atividades desenvolvidas com a educação, divulgação científica.</p>
+			<p>Buscando sempre valorizar os saberes dos povos do campo, pois acredito na ciência como norteadora para o fortalecimento dos saberes tradicionais.</p>
+		</section>
+		<section id="sobre" class="sobre">
+			<h2>Sobre mim</h2>
+			<p>Para além do universo acadêmico:</p>
+			<ul id="interesses"></ul>
+		</section>
+
+		<section id="formacao" class="formacao">
+			<h2>Formação</h2>
+			<div class="cards">
+				<article class="card">
+					<p>Graduação em Licenciatura em Educação do Campo - habilitação em Ciências da Natureza e Matemática (UFMA)</p>
+					<p>Pós-graduanda em Gestão e Desenvolvimento Regional da Amazônia - lato sensu (IFMA)</p>			
+				</article>
+			</div>
+		</section>
+
+		<section id="experiencia" class="experiencia">
+			<h2>Experiência</h2>
+			<div class="cards">
+				<article class="card">
+					<h2>Programa de Ensino à Docência</h2>
+					<h3>Bolsista de Iniciação à Docência (PIBID)</h3>
+					<p>Atuação em escola pública, ministrando oficina de ciências e matemática, além de desenvolver atividades de pesquisa e extensão.</p>
+					<p>Turmas: 6º ao 9º ano do ensino fundamental</p>
+				</article>
+				<article class="card">
+					<h2>Programa de Ensino e Extensão</h2>
+					<h3>Programa de Residência Pedagógica (PRP)</h3>
+					<p>Atuação em escola pública, ministrando aulas de Ciências e Matemática para alunos do ensino fundamental em escola do campo.</p>
+					<p>Turmas: 6º ao 9º ano do ensino fundamental</p>
+				</article>
+			</div>
+		</section>
+
+		<section id="projetos">
+			<h2>Projetos e Pesquisas</h2>
+			<div class="cards" id="cards">
+				<div class="filtros">
+					<button class="filtro ativo" data-filtro="todos">Todos</button>
+					<button class="filtro" data-filtro="pesquisa">Pesquisa</button>
+					<button class="filtro" data-filtro="projeto">Projeto</button>
+					<button class="filtro" data-filtro="extensao">Extensão</button>
+				</div>
+				<div class="cards" id="cards"></div>
+			</div>
+		</section>
+
+		<section id="contato">
+			<p>Vamos conversar? Aberta para parcerias e oportunidades de colaboração relacionadas à educação e pesquisa.</p>		
+			<a href="mailto:jackelindarodriguescosta.com" class="botao">Entre em contato</a>
+			<a href="https://www.linkedin.com/in/jackelinda-rodrigues-costa-4a253819a" class="botao" target="_blank">LinkedIn</a>
+			<a href="http://lattes.cnpq.br/7785314288254769" class="botao" target="_blank">Currículo Lattes</a>
+			<a href="https://www.instagram.com/jacqelinda_/" target="_blank" class="botao">Instagram</a>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2026 Jackelinda Rodrigues Costa | Todos os direitos reservados.</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
